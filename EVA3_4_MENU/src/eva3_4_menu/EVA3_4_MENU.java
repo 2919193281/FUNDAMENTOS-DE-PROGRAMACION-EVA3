@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package eva3_4_menu;
+
+/**
+ *
+ * @author Usuario
+ */
+public class EVA3_4_MENU {
+
+   /**
+    * @param args the command line arguments
+    */
+   public static void main(String[] args) {
+      
+      String[] menu = {"Tacos", "Tortillas", "Tamales", "Tlacoyos", "Tlayudas", "Pizza"}; 
+                      //0          1         2          3            4            5
+      
+      System.out.println("Cantidad de elementos " + menu.length);
+       for (int i = 0; i < menu.length; i++) {
+           System.out.println(" "+ menu[i]);
+       }
+      // TODO code application logic here
+   }
+   
+}
